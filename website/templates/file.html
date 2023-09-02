@@ -1,1 +1,34 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArchAid - Optimizing Projects</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to ArchAid</h1>
+    </header>
+
+    <main>
+        <section id="location-section">
+            <h2>Find the Closest Location</h2>
+            <form id="location-form">
+                <label for="location-input">Location:</label>
+                <input type="text" id="location-input" name="location" required>
+                <label for="need-materials-checkbox">Need Materials:</label>
+                <input type="checkbox" id="need-materials-checkbox" name="needMaterials">
+                <button type="submit">Find Closest Location</button>
+            </form>
+            <div id="result-container"></div>
+        </section>
+
+    
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
