@@ -1,4 +1,4 @@
-/* Apply basic styling to the body and header */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,7 +13,7 @@ header {
     padding: 1rem 0;
 }
 
-/* Style the location section form */
+
 #location-section {
     margin: 2rem auto;
     padding: 1rem;
@@ -51,7 +51,7 @@ button {
     border-radius: 5px;
 }
 
-/* Style the result container */
+
 #result-container {
     margin-top: 1rem;
     padding: 1rem;
