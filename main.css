@@ -87,6 +87,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  text-align: center;
 }
 /*h2 .underline {
 		text-decoration: underline;
