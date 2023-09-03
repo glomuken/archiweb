@@ -1,0 +1,18 @@
+#map {
+    height: 100%;
+  
+  }
+  
+  html, body {
+  position: relative;  
+  height: 85%;
+  margin: 0;
+  padding: 0;
+  }
+  
+  #down{
+    position: absolute;
+    left: 10px;
+    
+  }
+  
