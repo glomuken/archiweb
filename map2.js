@@ -13,13 +13,6 @@ function initMap() {
     // fn that calls add marker 
     google.maps.event.addListener(map, "click", (event) => {
       addMarker(event.latLng, map);
-     
-
-   
-
-
-
-
 
     });
     
