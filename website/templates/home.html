@@ -1,0 +1,38 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+%}
+<section align="Left"  style="margin-top: 60px;">
+  <h1>Welcome to ArchiWeb: Building the Future with AI</h1>
+  <!-- <img src="/website/static/robots_building.jpeg" alt="image of robots helping build a house"> -->
+  <img src="{{url_for('static', filename='robot_building.jpeg')}}" alt="image of robots helping build a house" style="width: 100%"/>
+  <p>In a world where the population is rapidly growing, resources are becoming scarcer, and economic challenges persist, the need for strategic and efficient architectural and infrastructure projects has never been more critical. ArchiWeb explores the remarkable intersection of architecture and artificial intelligence, highlighting how AI is transforming the way we design, plan, and execute infrastructure projects to address these challenges.</p>
+  <h4>Embracing AI for Smart Infrastructure Development</h4>
+  <img src="{{url_for('static', filename='building_plan.jpg')}}" alt="image of building plan" style="width: 100%"/>
+  <p>With the increasing complexity of urban and rural development, it's essential to make informed decisions that balance the needs of local communities with environmental sustainability and economic viability. Artificial Intelligence has emerged as a powerful tool to achieve this delicate balance.
+  </p>
+  <h4>AI's Data-Driven Insights</h4>
+  <img src="{{url_for('static', filename='data_insights.jpg')}}" alt="image of bulb" style="width: 100%"/>
+  <p>AI has the capability to process extensive data from a multitude of sources, offering an unprecedented understanding of local needs and available resources. This, in turn, empowers decision-makers to minimize costs while maximizing the benefits of architectural and infrastructure projects.</p>
+  <h4>Revealing Unseen Patterns</h4>
+  <img src="{{url_for('static', filename='drone_image.webp')}}" alt="image of african township" style="width: 100%"/>
+  <p>One of the AI's superpowers lies in its ability to identify patterns and correlations that might elude human planners. By analyzing geospatial, environmental, and socio-economic data, AI can pinpoint ideal locations for various projects such as roads, bridges, energy facilities, and water supply systems. This proactive approach ensures that projects are strategically situated to benefit communities, mitigate environmental impact, and bolster economic growth.</p>
+  <h4>Empowering Africa with AI</h4>
+  <img src="{{url_for('static', filename='empowering_africa.jpg')}}" alt="image of africans using ai" style="width: 100%"/>
+  <p>ArchiWeb is particularly committed to the advancement of infrastructure development in African countries. By harnessing the power of AI, we aim to enable evidence-based decisions that drive efficient, sustainable, and inclusive infrastructure development.</p>
+  <h4>Cost Optimization and Material Selection</h4>
+  <img src="{{url_for('static', filename='cost_optimization.jpg')}}" alt="image of cost optimization graph" style="width: 100%"/>
+  <p>AI's capabilities extend beyond location selection. It also plays a crucial role in budgeting and material selection, ensuring that projects are not only strategically placed but also financially sound.
+  </p>
+  <h4>Informed Budgeting</h4>
+  <img src="{{url_for('static', filename='save_money.webp')}}" alt="image of money in jar" style="width: 100%"/>
+  <p>AI calculates project costs through data analysis, facilitating well-informed budgeting. It takes into account a multitude of factors, including construction materials, labor costs, and regional variables. This ensures that financial resources are allocated judiciously, avoiding unnecessary expenses.</p>
+  <h4>Optimal Material Selection</h4>
+  <img src="{{url_for('static', filename='building_material.jpeg')}}" alt="image of building materials" style="width: 100%"/>
+  <p>The selection of construction materials is a critical decision in any infrastructure project. AI assesses diverse material options considering factors like price, quality, and regional availability. By doing so, it enables the selection of optimal materials that meet cost-effectiveness requirements while ensuring the longevity and quality of the project.
+
+    At ArchiWeb, we believe that the marriage of architecture and artificial intelligence can lead to a brighter, more sustainable future. By leveraging AI's data-driven insights and advanced analytical capabilities, we can create infrastructure that not only meets our needs but also preserves our planet for future generations.
+    
+    Join us on our journey as we delve deeper into the innovative world of architectural and infrastructure development, where AI is at the forefront of building a better, more sustainable future. Stay tuned for regular blog posts, expert insights, and case studies that showcase the incredible potential of AI in the world of architecture and infrastructure.</p>
+  <img src="{{url_for('static', filename='homes.jpg')}}" alt="image of building materials" style="width: 100%"/>
+  <h5>Let ArchiWeb be your gateway to a smarter, more sustainable future in infrastructure development!</h5>
+</section>
+{% endblock %}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/map.css') }}">
+</head>
+<body>
+  <div class="navbar navbar-expand-lg navbar-dark bg-dark" style="width: 100%; position: fixed; top: 0; left: 0; z-index: 100;">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  <button
+			class="navbar-toggler"
+			type="button"
+			data-toggle="collapse"
+			data-target="#navbar"
+		  > 
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbar">
+			<div class="navbar-nav">
+			  <a class="nav-item nav-link" id="home" href="/">Home</a>
+			  <a class="nav-item nav-link" id="logout" href="/logout">Logout</a>
+			  <a class="nav-item nav-link" id="ai" href="/ai">Talk to AI</a>
+			  <a class="nav-item nav-link" id="plans" href="/plan">Build Plan</a>
+			  <a class="nav-item nav-link" id="maps" href="/maps">Veiw Maps</a>
+			  <a class="nav-item nav-link" id="location" href="/location">Veiw My Location</a>
+			</div>
+		  </div>
+		</nav>
+	</div>
+  <h1>Your Location</h1>
+  <a class="button left-button" href="https://pi.ai/talk">Talk To Pi About your plans</a>
+  <div id="map"></div>
+  <script src="{{url_for('static', filename='map.js') }}"></script> 
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4UGSqgtoDmHj0soSHk6RQZ-EZpeLp0wk&callback=initMap&libraries=&v=weekly"
+    async
+  ></script>
+</body>
+</html>
