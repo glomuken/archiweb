@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, request, flash, jsonify
+from flask import Blueprint, render_template, request, flash, jsonify,redirect
 from flask_login import login_required, current_user
 from .models import Note
 from . import db
@@ -23,6 +23,9 @@ def maps():
 def location():
     return render_template("map.html")
 
+@views.route("/ai", methods=['GET','POST'])
+def ai():
+    return redirect("https://mediafiles.botpress.cloud/ecd592d6-006c-4add-9a75-453e4e83bf73/webchat/bot.html")
 
 @views.route('/delete-note', methods=['POST'])
 def delete_note():  
